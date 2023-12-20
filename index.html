@@ -10,5 +10,33 @@
 <body>
     <!-- branch -->
     
+
+    <script>
+        
+        NumeroUtente = prompt("inserisci un numero: ")
+
+        function Casuale() {
+
+            numeroCasuale = Math.ceil(Math.random()*NumeroUtente);
+            return alert(numeroCasuale)
+        }
+        console.log(Casuale())
+
+        num1= Number(prompt("inserisci primo numero: "))
+        num2= Number(prompt("inserisci secondo numero: "))
+        differenza = num1-num2;
+        alert("la differenza é " + differenza );
+        somma = num1+num2;
+        alert("la somma é " + somma );
+
+        /*
+        function differenza(num1, num2){
+            somma= num1 + num2;
+            return alert(somma)
+        }
+        console.log(differenza())
+        */
+       
+    </script>
 </body>
 </html>
