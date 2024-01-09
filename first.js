@@ -15,14 +15,14 @@
         somma = num1+num2;
         alert("la somma é " + somma ); */
        
-        body =  document.body;
+       /* body =  document.body;
         function stampa(x1,x2) {
             body.append(x1,x2);
             const br =document.createElement('br');
             body.append(br);
         }
          stampa("Hola", "Hola2");
-         stampa("Hola", "hey");S
+         stampa("Hola", "hey"); */
 
         /* let n = prompt("inserisci un numero esadecimale")
         let ndaconvertire = '0x$(n)'
